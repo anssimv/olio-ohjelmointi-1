@@ -1,11 +1,12 @@
 import random
 import time
 
+class Olento:
+    def __init__(rohkeus, katseen_voima): # nämä ovat omia
 
 
 
-
-class Peikko:
+class Peikko(Olento):
     """Luokka, joka kuvaa Peikon.
     :ivar nimi: peikon nimi, arvotaan
     :type nimi: str
@@ -26,6 +27,7 @@ class Peikko:
         self.nimi = self._arvo_sanat(self.NIMITAVUT, 3, "-")
         self.rohkeus = random.randint(4, 8)
         self.katseen_voima = random.randint(2, 4)
+        super().__init__(rohkeus, katseen_voima)
 
     def _arvo_sanat(self, tavut, n, erotin, p=0.5):
         """Muodostaa satunnaisen tekstin annetuista tavuista.
@@ -59,10 +61,7 @@ class Peikko:
 
 
 
-class Olento(Peikko, Sankari):
-    def __init__(rohkeus, katseen_voima): # nämä ovat omia
 
-        super().__init__(rohkeus, katseen_voima)  #nämä peritään
 
     
     
