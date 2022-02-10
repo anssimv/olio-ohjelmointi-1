@@ -2,7 +2,9 @@ import random
 import time
 
 class Olento:
-    def __init__(rohkeus, katseen_voima): # nämä ovat omia
+    def __init__(self, rohkeus, katseen_voima): # nämä ovat omia
+        self.rohkeus = random.randint(4, 8)
+        self.katseen_voima = random.randint(2, 4)
 
 
 
@@ -25,8 +27,6 @@ class Peikko(Olento):
     def __init__(self):
         """Konstruktori."""
         self.nimi = self._arvo_sanat(self.NIMITAVUT, 3, "-")
-        self.rohkeus = random.randint(4, 8)
-        self.katseen_voima = random.randint(2, 4)
         super().__init__(rohkeus, katseen_voima)
 
     def _arvo_sanat(self, tavut, n, erotin, p=0.5):
