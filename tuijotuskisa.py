@@ -26,9 +26,12 @@ class Peikko(Olento):
 
     def __init__(self):
         """Konstruktori."""
+        super().__init__(1, 2)
         self.nimi = self._arvo_sanat(self.NIMITAVUT, 3, "-")
-        super().__init__(rohkeus, katseen_voima)
+        
+        
 
+        
     def _arvo_sanat(self, tavut, n, erotin, p=0.5):
         """Muodostaa satunnaisen tekstin annetuista tavuista.
         :param tavut: ne tavut, joita palautettava teksti voi sisältää
@@ -68,8 +71,10 @@ class Peikko(Olento):
 
 
 class Vuorenpeikko(Peikko):
-    def __init__(self):
-        self.nimi = self
+    def __init__(self, nimi):
+        self.nimi = random.choice(VUORI_NIMET)
+        super().__init__(1, 6)
+
         
         
         
@@ -87,9 +92,11 @@ class Vuorenpeikko(Peikko):
 class Luolapeikko(Peikko):
     def __init__(self):
         self.nimi = self
+        super().__init__(rohkeus, katseen_voima)
+
 
     LUOLA_NIMET = ()
-    LUOLA_HURRAUKSET = ()
+    LUOLA_HURRAUKSET = ("Luolamuori", "Luolapappa", "Luolapeikko" )
 
 
 ### Kirjoita luokka Sankari tähän.
