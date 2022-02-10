@@ -2,38 +2,7 @@ import random
 import time
 
 
-class Olento(Peikko, Sankari):
-    def __init__(rohkeus, katseen_voima): # nämä ovat omia
-    
 
-    super().__init__(rohkeus, katseen_voima)  #nämä peritään
-
-    
-
-
-class Vuorenpeikko(Peikko):
-    def __init__(self):
-        self.nimi = self
-        
-        
-        
-        
-        
-        VUORI_NIMET = ("Vuorimuori", "Vuoripappa", "Vuoripeikko")
-        VUORI_HURRAUKSET = ()
-
-
-
-
-
-
-
-class Luolapeikko(Peikko):
-    def __init__(self):
-        self.nimi = self
-
-    LUOLA_NIMET = ()
-    LUOLA_HURRAUKSET = ()
 
 
 class Peikko:
@@ -86,6 +55,42 @@ class Peikko:
         :rtype: str
         """
         return self._arvo_sanat(self.RIEMUTAVUT, 8, " ", 0.7)
+
+
+
+
+class Olento(Peikko, Sankari):
+    def __init__(rohkeus, katseen_voima): # nämä ovat omia
+
+        super().__init__(rohkeus, katseen_voima)  #nämä peritään
+
+    
+    
+
+
+class Vuorenpeikko(Peikko):
+    def __init__(self):
+        self.nimi = self
+        
+        
+        
+        
+        
+        VUORI_NIMET = ("Vuorimuori", "Vuoripappa", "Vuoripeikko")
+        VUORI_HURRAUKSET = ()
+
+
+
+
+
+
+
+class Luolapeikko(Peikko):
+    def __init__(self):
+        self.nimi = self
+
+    LUOLA_NIMET = ()
+    LUOLA_HURRAUKSET = ()
 
 
 ### Kirjoita luokka Sankari tähän.
