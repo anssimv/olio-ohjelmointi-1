@@ -1,10 +1,27 @@
 import random
 import time
+from traceback import print_tb
 
 class Olento:
     def __init__(self, rohkeus, katseen_voima): # nämä ovat omia
         self.rohkeus = random.randint(4, 8)
         self.katseen_voima = random.randint(2, 4)
+
+
+#valitse_peikko = random.randint(1, 3)
+
+#if valitse_peikko == 1:
+
+
+#elif valitse_peikko == 2:
+    #print(Vuorenpeikko)
+
+
+#else:
+    #print(Luolapeikko)
+
+
+
 
 
 
