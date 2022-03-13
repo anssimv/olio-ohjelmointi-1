@@ -6,7 +6,14 @@ import random
 
 
 class Asiakas:
-
+    """
+    :ivar asiakkaan nimi: asiakkaan nimi
+    :type: str
+    :ivar asiakasnumero: koostuu numeroista, arvotaan random.randitilla
+    :type: int[]
+    :ivar: asiakkaan ikä: asiakkaan ikä
+    :type: int
+    """
 
     #luo_nro
     def __init__(self):
@@ -51,24 +58,26 @@ kolmas_osa = random.randint(1, 999)
 
 
     class Palvelu:
-        def __init__():
-            """
+        """
+        :ivar: Tuotenimi: minkä tuotteen asiakkaat listataan
+        :type: str
+        :ivar: asiakkaat: kertoo ketkä tuotetta käyttävät 
+        :type: Asiakas[]
+        """
+        def __init__(self, tuotenimi, asiakkaat):
+
             
             
             
             
             
-            """
             
             
             
             
             
-            
-            
-            
-            luo_asiakasrivi(Asiakas:)
-                #print(f"{nimi} ({asiakas_nro}) on {ika}-vuotias")
+            def get_luo_asiakasrivi(Asiakas):
+                print(f"{nimi} ({asiakas_nro}) on {ika}-vuotias")
             
 
 
@@ -90,4 +99,5 @@ kolmas_osa = random.randint(1, 999)
 
     class ParemiPalvelu(Palvelu):
         def __init__():
-            pass
+    
+        pass
