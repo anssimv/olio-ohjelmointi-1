@@ -66,7 +66,7 @@ kolmas_osa = random.randint(1, 999)
         """
         def __init__(self, tuotenimi, asiakkaat):
 
-            
+
             
             
             
@@ -78,6 +78,21 @@ kolmas_osa = random.randint(1, 999)
             
             def get_luo_asiakasrivi(Asiakas):
                 print(f"{nimi} ({asiakas_nro}) on {ika}-vuotias")
+
+            """
+            :ivar: luo_asiakasrivi(Asiakas): perii luokasta Asiakas nimen, asiakasnumeron
+            ja iän ja luo niistä tietorivin.
+            :type: str
+            :ivar: lisaa_asiakas
+
+
+            :param: erotin: numeron osien väliin alitettava väliviiva
+            :type: str
+            :ivar: poista_asiakas(Asiakas): poistaaasiakkaan tiedot
+            :type: [str]
+            :ivar: tulosta_asiakkaat: tulostaa kaikkien asiakkaiden tiedot
+            :type: str
+            """
             
 
 
@@ -98,6 +113,17 @@ kolmas_osa = random.randint(1, 999)
 
 
     class ParemiPalvelu(Palvelu):
-        def __init__():
+
+
+        def __init__(self, edut):
+            edut = []
+
+        def lisaa_etu():
+            edut.append(etu)
+
+        def poista_etu():
+            edut.pop(poistettava_etu)
+
+
     
         pass
