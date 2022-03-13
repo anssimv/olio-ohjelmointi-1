@@ -16,11 +16,10 @@ class Asiakas:
     """
 
     #luo_nro
-    def __init__(self):
+    def __init__(self, nimi, ika):
         self.__nimi = ""
         self.__asiakasnro = (f"{ensimmainen_osa}, _ {toinen_osa}, - {kolmas_osa}")
         self.__ika = ""
-        # KAPSELOINNIN PURKU
 ensimmainen_osa = random.randint(1, 99)
                 
 toinen_osa = random.randint(1, 999)
@@ -71,7 +70,9 @@ kolmas_osa = random.randint(1, 999)
             
             
             
-            
+        def tulosta_asiakkaat(Palvelu):
+            print(Palvelu.asiakkaat)
+
             
             
             
@@ -84,21 +85,26 @@ kolmas_osa = random.randint(1, 999)
             ja iän ja luo niistä tietorivin.
             :type: str
             :ivar: lisaa_asiakas
-
+            
 
             :param: erotin: numeron osien väliin alitettava väliviiva
             :type: str
-            :ivar: poista_asiakas(Asiakas): poistaaasiakkaan tiedot
+            :ivar: poista_asiakas(Asiakas): poistaa asiakkaan tiedot
             :type: [str]
             :ivar: tulosta_asiakkaat: tulostaa kaikkien asiakkaiden tiedot
             :type: str
             """
             
 
+        def poista_asiakas
+            poistettava = (input("kenet poistetaan"))
+            try: poistettava in edut:
+                edut.pop(poistettava)
+
+            except ValueError: ("asiakasta ei ole listassa")
 
 
-
-            pass
+        
 
 
         
@@ -121,9 +127,27 @@ kolmas_osa = random.randint(1, 999)
         def lisaa_etu():
             edut.append(etu)
 
+            """
+            :ivar: lisaa_etu: lisää edun listaan
+            :type: str
+            """
+
         def poista_etu():
-            edut.pop(poistettava_etu)
+            poistettava = (input("Anna kokonaisluku: "))
+            try: poistettava in edut:
+                edut.pop(poistettava)
 
+            except ValueError: ("Etua ei ole listassa")
 
-    
-        pass
+            
+            """
+            :ivar: poista_etu: poistaa edun listasta
+            :type: str
+            """
+        def tulosta_edut():
+            print(edut)
+            """
+            :IVAR: tulosta_edut: tulostaa edut
+            :type: str
+
+            """
