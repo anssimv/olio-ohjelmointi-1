@@ -119,7 +119,7 @@ kolmas_osa = random.randint(1, 999)
 
 
     class ParemiPalvelu(Palvelu):
-
+#
 
         def __init__(self, edut):
             edut = []
