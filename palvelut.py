@@ -17,39 +17,40 @@ class Asiakas:
 
     #luo_nro
     def __init__(self, nimi, ika):
-        self.__nimi = ""
-        self.__asiakasnro = (f"{ensimmainen_osa}, _ {toinen_osa}, - {kolmas_osa}")
-        self.__ika = ""
-ensimmainen_osa = random.randint(1, 99)
-                
-toinen_osa = random.randint(1, 999)
-            
-kolmas_osa = random.randint(1, 999)
+        self.__nimi = nimi
+        self.__asiakasnro = luo_numero()
+        self.__ika = ika
+
+
+        
         
         
         
         
     
     def get_tiedot(asiakas):
-        
         raise ValueError("Annettiin negatiivinen luku.")
-        
-        print(nimi)
+        print(asiakas)
     
     
-        pass
     
     
 
     def __get_asiakasnro():
-    
-    
-    
         pass
 
 
 
+    def luo_numero():
+         
+        ensimmainen_osa = random.randint(1, 99)
+                
+        toinen_osa = random.randint(1, 999)
+            
+        kolmas_osa = random.randint(1, 999)
 
+        return f"{ensimmainen_osa}, _ {toinen_osa}, - {kolmas_osa}"
+        
 
 
 
