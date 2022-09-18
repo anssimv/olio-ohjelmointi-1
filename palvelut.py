@@ -1,4 +1,72 @@
+import random
 
+
+class Asiakas:
+    set_nimi()
+
+def __init__(self, nimi, ika):
+    pass
+
+
+def __luo_nro(self):
+    pass
+
+def
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 import random
 
    #   -=__        #=_   +=none 
@@ -6,14 +74,14 @@ import random
 
 
 class Asiakas:
-    """
+    
     :ivar asiakkaan nimi: asiakkaan nimi
     :type: str
     :ivar asiakasnumero: koostuu numeroista, arvotaan random.randitilla
     :type: int[]
     :ivar: asiakkaan ikä: asiakkaan ikä
     :type: int
-    """
+    
 
     #luo_nro
     def __init__(self, nimi, ika):
@@ -58,12 +126,12 @@ class Asiakas:
 
 
     class Palvelu:
-        """
+        
         :ivar: Tuotenimi: minkä tuotteen asiakkaat listataan
         :type: str
         :ivar: asiakkaat: kertoo ketkä tuotetta käyttävät 
         :type: Asiakas[]
-        """
+        
         def __init__(self, tuotenimi, asiakkaat):
 
 
@@ -81,7 +149,7 @@ class Asiakas:
             def get_luo_asiakasrivi(Asiakas):
                 print(f"{nimi} ({asiakas_nro}) on {ika}-vuotias")
 
-            """
+            
             :ivar: luo_asiakasrivi(Asiakas): perii luokasta Asiakas nimen, asiakasnumeron
             ja iän ja luo niistä tietorivin.
             :type: str
@@ -94,7 +162,7 @@ class Asiakas:
             :type: [str]
             :ivar: tulosta_asiakkaat: tulostaa kaikkien asiakkaiden tiedot
             :type: str
-            """
+            
             
 
         def poista_asiakas
@@ -128,10 +196,10 @@ class Asiakas:
         def lisaa_etu():
             edut.append(etu)
 
-            """
+
             :ivar: lisaa_etu: lisää edun listaan
             :type: str
-            """
+     
 
         def poista_etu():
             poistettava = (input("Anna kokonaisluku: "))
@@ -141,14 +209,14 @@ class Asiakas:
             except ValueError: ("Etua ei ole listassa")
 
             
-            """
+
             :ivar: poista_etu: poistaa edun listasta
             :type: str
-            """
+  
         def tulosta_edut():
             print(edut)
-            """
+       
             :IVAR: tulosta_edut: tulostaa edut
             :type: str
 
-            """
+"""
