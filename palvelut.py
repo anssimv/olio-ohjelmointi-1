@@ -2,33 +2,60 @@ import random
 
 
 class Asiakas:
-    """
+        """
+        
+        """
+
+    def __init__(self, nimi, ika):
+        pass
+
+
+    def __luo_nro(self):
+        pass
+
+    def set_nimi(self, nimi):
+        pass
+
+
+    def set_ika(self, ika):
+        pass
+
+
+    def get_nimi(self):
+        pass
+
+    def get_ika(self):
+        pass
+
+    def get_asiakasnumero(self):
+        pass
+
+
+class palvelu:
+
+
+    def __init__(self, tuotenimi):
+        pass
+
+    def lisaa_asikas(self, asiakas):
+        pass
+
+    def poista_asiakas(self, asiakas):
+        pass
     
-    """
+      
+    def _luo_asiakasrivi(self, asiakas):
+        pass
 
-def __init__(self, nimi, ika):
-    pass
-
-
-def __luo_nro(self):
-    pass
-
-def set_nimi(self, nimi):
-    pass
+    def tulosta_asiakkaat(self):
+        pass
 
 
-def set_ika(self, ika):
-    pass
 
+class ParempiPalvelu(Palvelu):
 
-def get_nimi(self):
-    pass
-
-def get_ika(self):
-    pass
-
-def get_asiakasnumero(self):
-    pass
+    def __init__(self, tuotenimi):
+        pass
 
 
 
