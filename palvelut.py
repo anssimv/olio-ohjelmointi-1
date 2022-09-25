@@ -2,7 +2,9 @@ import random
 
 
 class Asiakas:
-    set_nimi()
+    """
+    
+    """
 
 def __init__(self, nimi, ika):
     pass
@@ -11,7 +13,25 @@ def __init__(self, nimi, ika):
 def __luo_nro(self):
     pass
 
-def
+def set_nimi(self, nimi):
+    pass
+
+
+def set_ika(self, ika):
+    pass
+
+
+def get_nimi(self):
+    pass
+
+def get_ika(self):
+    pass
+
+def get_asiakasnumero(self):
+    pass
+
+
+
 
 
 
